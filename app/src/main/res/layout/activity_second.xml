@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/activity_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:orientation="vertical"
+        tools:context="com.angelos.shoppingapp.SecondActivity">
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHARE IT"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/share_button"/>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/dog_puppy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="#E91E63"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:text="Puppy dog food extreme" />
+
+
+
+
+    <TextView
+        android:id="@+id/dog_adult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/teal_200"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:text="adult dog food" />
+
+
+    <TextView
+        android:id="@+id/dog_senor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="#DABD03"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:text="food for old dogs" />
+
+
+
+    <TextView
+        android:id="@+id/dog_sick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/purple_200"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:text="for sick dogies" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="LOG OUT"
+
+        />
+
+
+
+
+</LinearLayout>
+
+

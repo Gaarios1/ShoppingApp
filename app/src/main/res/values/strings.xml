@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShoppingApp</string>
+    <string name="name" translatable="false">Angelos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Puppy_food">This is the best dog food for puppies on the market. weight:20 kg, price:50 Euros</string>
+    <string name="adult_food">This is the best dog food for adult dogs on the market. Buy it now at the best price. weight:15 kg, price:80 Euros</string>
+    <string name="senor_food">This dog food guaranties that your senor dog would be happy with this specially made dog food. weight:23 kg, price:70 Euros</string>
+    <string name="sick_dog_food">This dog food is made with healthy ingredients as well as medicinal herbs. Specially made for dogs with illnesses and other physical problems. weight:20 kg, price:90 Euros</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
